@@ -3,7 +3,6 @@
 
 
 General Backtracking psuedocode-
-
 boolean solve(Node n) {
             if n is a goal node, return true
             
