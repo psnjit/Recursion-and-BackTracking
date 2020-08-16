@@ -3,11 +3,12 @@
 
 
 General Backtracking psuedocode-
-boolean solve(Node n) {
+          boolean solve(Node n) 
+          {
             if n is a goal node, return true
-            
-            foreach option O possible from n {
+            foreach option O possible from n 
+            {
                 if solve(O) succeeds, return true
             }
             return false
-        }
+          }
